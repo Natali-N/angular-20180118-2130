@@ -4,12 +4,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { UserCardComponent } from './user-card/user-card.component';
+import { MailBoxComponent } from './mail-box/mail-box.component';
+import { MailComponent } from './mail/mail.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserCardComponent
+    UserCardComponent,
+    MailBoxComponent,
+    MailComponent
   ],
   imports: [
     BrowserModule
