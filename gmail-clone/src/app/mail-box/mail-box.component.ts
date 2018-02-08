@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { MailModel } from '../models/mail.model';
 
 @Component({
@@ -7,18 +7,9 @@ import { MailModel } from '../models/mail.model';
   styleUrls: ['./mail-box.component.scss']
 })
 export class MailBoxComponent implements OnInit {
-  public mailsList: MailModel[] = [
-    {
-      received: 1517768685159,
-      author: 'Jane',
-      subject: 'January 30th meeting follow-up',
-    },
-    {
-      received: 1517768723525,
-      author: 'Jane',
-      subject: 'January 31th meeting follow-up',
-    },
-  ];
+  @Input() inbox: MailModel[];
+
+  public mailsList: MailModel[] = [];
 
   private randomIndex = 1;
 
