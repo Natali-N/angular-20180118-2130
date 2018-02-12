@@ -1,4 +1,8 @@
-<h3>Inbox ({{mailsList.length}} mails)</h3>
+<h3>Inbox
+  <ng-template *ngIf="mailsList && mailsList.length">
+    ({{mailsList.length}} mails)
+  </ng-template>
+</h3>
 <div class="mail-box-container">
   <ng-container *ngIf="mailsList && mailsList.length; else elseBlock">
     <gc-mail *ngFor="let mail of mailsList; index as i; first as isFirst"

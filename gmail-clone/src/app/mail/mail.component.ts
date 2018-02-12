@@ -18,7 +18,7 @@ export class MailComponent implements OnInit {
 
   ngOnInit() {
     //нужно было бы сделать пайпом, сработало бы пайпом?
-    const date = new Date(this.mail.received);
+    const date = new Date(this.mail.received ? this.mail.received : 1517768723525);
 
     this.formatedDate = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + ' ' + date.getHours() + ':' + date.getMinutes();
   }

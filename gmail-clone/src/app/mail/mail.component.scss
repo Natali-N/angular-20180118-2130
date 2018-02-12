@@ -35,15 +35,19 @@
       width: 160px;
     }
 
-    &-received,
-    &-author {
+    &-received {
       width: 150px;
       padding-right: 20px;
     }
 
     &-subject {
+      width: 300px;
+      padding-right: 20px;
+    }
+
+    &-body {
       display: flex;
-      flex: 1 0 auto;
+      flex: 1 80 auto;
     }
   }
 }
