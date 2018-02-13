@@ -3,7 +3,7 @@
 Что подготовить(или уже знать)?
 
 - Javascript - https://learn.javascript.ru
-- EcmaScript2015 - https://learn.javascript.ru/es-modern 
+- EcmaScript2015 - https://learn.javascript.ru/es-modern
 - TypeScript
   -- классы/интерфейсы
   -- декораторы (класса, свойства)
@@ -27,8 +27,12 @@
 
 [26.02]
 - [ИМЯ Фамилия] - [code] - [demo (github-page)]
+- Валентин Кутин
 
-
+README
+- about
+- install
+- ...
 
 
 Дополнительные вопросы
